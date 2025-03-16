@@ -1,68 +1,67 @@
 <!DOCTYPE html>
-<html>
 <head>
-    <title>User Registration</title>
+    <title>Event admin registration </title>
 </head>
 <body>
-    <header>
-        <h1>User Registration</h1>
-    </header>
-    <main>
-        <form action="show.php" method="post">
-            <fieldset>
-                <legend>User Information</legend>
-                <table>
-                    <tr>
-                        <td>Name:</td>
-                        <td><input type="text" name="name" id="name"></td>
-                    </tr>
-                    <tr>
-                        <td>Username:</td>
-                        <td><input type="text" name="username" id="username"></td>
-                    </tr>
-                    <tr>
-                        <td>Password:</td>
-                        <td><input type="password" name="password" id="password"></td>
-                    </tr>
-                    <tr>
-                        <td>Confirm Password:</td>
-                        <td><input type="password" name="confirmpassword" id="confirmpassword"></td>
-                    </tr>
-                    <tr>
-                        <td>Email Address:</td>
-                        <td><input type="email" name="email" id="email"></td>
-                    </tr>
-                    <tr>
-                        <td>Confirm Email Address:</td>
-                        <td><input type="email" name="confirmemail" id="confirmemail"></td>
-                    </tr>
-                    <tr>
-                        <td>Gender:</td>
-                        <td>
-                            <input type="radio" name="gender" value="male" id="male"> Male
-                            <input type="radio" name="gender" value="female" id="female"> Female
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="checkbox" name="terms" id="terms"> I agree to all terms and conditions.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="checkbox" name="age" id="age"> I'm at least 18 years old.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="submit" value="Submit">
-                        </td>
-                    </tr>
-                </table>
-            </fieldset>
-        </form>
-    </main>
-</body>
-</html>
+    <h1> Event Planning Admin Registration </h1>
+    <img src ="image/prc.webp" alt="Event Logo"  width="300" height="150">  <br> <br> <br>
+    <form action="show.php" method="post">
+
+    <table>
+        <tr>
+            <td><label for="subname">Sub Name :</label> <br><br><br>  </td>
+            <td><input type="text" id="subname" name="subname"> <br> <br> <br> </td>
+        </tr>
+
+        <tr>
+            <td><label for="surname">Sur Name :</label> <br> <br><br> </td>
+            <td><input type="text" id="surname" name="surname"> <br> <br> <br> </td>
+        </tr>
+
+        <tr>
+            <td><label for="position">Position :</label> <br> <br><br> </td>
+            <td><input type="text" id="position" name="position"> <br> <br> <br> </td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email :</label> <br> <br><br> </td>
+            <td><input type="text" id="email" name="email"> <br> <br> <br> </td>
+        </tr>
+
+        <tr>
+            <td><label for="phone">Phone :</label> <br> <br><br> </td>
+            <td><input type="text" id="phone" name="phone"> <br> <br> <br> </td>
+        </tr>
+
+        <tr>
+            <td><label for="password">Password :</label> <br> <br><br> </td>
+            <td><input type="password" id="password" name="password"> <br> <br> <br> </td>
+        </tr>
+
+        <tr>
+            <td><label for="dob">Birth Date :</label> <br><br><br>  </td>
+            <td><input type="date" id="dob" name="dob"> <br> <br> <br> </td>
+        </tr>
+
+        <tr>
+            <td><label for="gender">Gender :</label> <br><br><br>  </td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female <br><br> <br>
  
- 
+            </td>
+
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="Submit"> </td>
+        </tr>
+
+    </table>     
+            
+    </form>
+    </body>
+    </html>
