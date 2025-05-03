@@ -1,0 +1,30 @@
+.body{
+    border-style: solid ;
+    border-radius: 10px;
+    border-color: rgb(17, 11, 22);
+    margin: 50px 400px 100px 400px;
+   
+}
+header{
+    color: brown;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+main{
+    background-color: darkmagenta;
+}
+.btn{
+    color: rgb(10, 9, 9);
+    background-color: rgb(36, 207, 207);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#button{
+    padding-left: 200px;
+}
+

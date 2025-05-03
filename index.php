@@ -2,10 +2,12 @@
 <html>
 <head>
     <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="registration.js"></script> 
 </head>
-<body>
+<body class="body">
     <header>
-        <h1>User Registration</h1>
+        <h1 class="userreg">User Registration</h1>
     </header>
     <main>
         <form action="show.php" method="post">
@@ -54,8 +56,9 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <input type="submit" value="Submit">
+                        <td id="button">
+                            <!-- <input class="btn" type="submit" value="Submit"> -->
+                            <button class="btn" type="button" onclick="myFunction()"> submit</button>
                         </td>
                     </tr>
                 </table>
